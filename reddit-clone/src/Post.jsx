@@ -1,12 +1,14 @@
 import React from "react";
 import data from "./data.json";
 import PostButtons from "./PostButtons";
+import Avvvatars from 'avvvatars-react'
 
 function Post() {
   return (
     <div>
       {data.data.children.map((data, i) => (
         <div key={data.data.id}>
+          <Avvvatars value={data.data.author} style="shape" />
           <p>u/{data.data.author}</p>
           <p></p>
           <h2 className="title">{data.data.title}</h2>
