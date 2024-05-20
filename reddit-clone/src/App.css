@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar {
+  background-color: #2B3237;
+  width: 40%;
+}
+
+.search-input{
+  background-color: inherit;
+  border: none;
+}
+.search-input::placeholder{
+  color: #8BA2AD;
+}
+.thread-icon{
+border-radius: 50%;
+}
+.thread-title{
+  display: flex;
+}
