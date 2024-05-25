@@ -18,6 +18,11 @@ button.full {
   cursor: pointer;
   border-radius: 18px;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

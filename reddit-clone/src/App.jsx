@@ -99,30 +99,36 @@ function App() {
             src="https://styles.redditmedia.com/t5_2ya0t/styles/bannerBackgroundImage_vpo0ffwsuryc1.png"
             alt=""
           />
-            <div className="thread-title">
+          <div className="thread-title flex">
+            <div className="flex">
               <img
                 className="thread-icon"
                 src="https://styles.redditmedia.com/t5_2ya0t/styles/communityIcon_ql5iyxjfuvic1.jpg?format=pjpg&s=c2ffada26a84a71ed5b3ec07bba0a1f825ce9833"
                 alt=""
                 width={80}
               />
-            <h1>r/Helldivers</h1>
-            <button>Create a post</button>
-            <button><Bell/></button>
-            <button>Joined</button>
-            <button>...</button>
+                <h1>r/Helldivers</h1>
             </div>
+              <div className="flex">
+              <button>Create a post</button>
+              <button>
+                <Bell />
+              </button>
+              <button>Joined</button>
+              <button>...</button>
+              </div>
+          </div>
           <div className="grid body">
             <Post />
-          <div className="container">
-            <h3>Helldivers</h3>
-            <p>
-              A subreddit dedicated to HELLDIVERS and HELLDIVERS 2, intense
-              co-op shooters set in a satirical dystopian future where you play
-              as one of mankind's elite soldiers determined to spread managed
-              democracy. Developed by Arrowhead Game Studios.
-            </p>
-          </div>
+            <div className="container">
+              <h3>Helldivers</h3>
+              <p>
+                A subreddit dedicated to HELLDIVERS and HELLDIVERS 2, intense
+                co-op shooters set in a satirical dystopian future where you
+                play as one of mankind's elite soldiers determined to spread
+                managed democracy. Developed by Arrowhead Game Studios.
+              </p>
+            </div>
           </div>
         </div>
       </div>
