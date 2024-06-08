@@ -123,14 +123,14 @@ function App() {
         <div className="main-container">
           <img className="main-container__banner" src={Banner} alt="" />
           <div className="main-container__intro">
-            <div className="main-container__thread-content">
-              <img
-                className="main-container__icon"
-                src="https://styles.redditmedia.com/t5_2ya0t/styles/communityIcon_ql5iyxjfuvic1.jpg?format=pjpg&s=c2ffada26a84a71ed5b3ec07bba0a1f825ce9833"
-                alt=""
-                width={80}
-              />
-              <div className="main-container__thread-info">
+            <div className="main-container__thread-info">
+              <div className="main-container__thread-content">
+                <img
+                  className="main-container__icon"
+                  src="https://styles.redditmedia.com/t5_2ya0t/styles/communityIcon_ql5iyxjfuvic1.jpg?format=pjpg&s=c2ffada26a84a71ed5b3ec07bba0a1f825ce9833"
+                  alt=""
+                  width={80}
+                />
                 <h1>r/Helldivers</h1>
               </div>
               <div className="thread-title__actions flex">
@@ -165,7 +165,7 @@ function App() {
               democracy. Developed by Arrowhead Game Studios.
             </p>
           </div>
-          <div className="thread-body">{/* <Post /> */}</div>
+          {/* <div className="thread-body"><Post /></div> */}
         </div>
       </div>
     </>
